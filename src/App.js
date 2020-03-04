@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.scss';
-import img from './img/pineapple.jpg'
 import Card from './components/card/Card';
+import Board from './components/Board/Board';
 
 class App extends Component {
 
@@ -9,7 +9,7 @@ class App extends Component {
   render() {
     return (
       <>
-        <Card />
+        <Board />
       </>
     );
   }
